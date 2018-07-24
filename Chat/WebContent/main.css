@@ -1,0 +1,234 @@
+@CHARSET "UTF-8";
+body,div,ul,li{
+	margin:0;
+	padding:0;
+}
+a{
+	text-decoration:none;
+}
+li {
+	list-style: none;
+}
+body{
+	width:100%;
+	height:100%;
+	/* background-size:cover; */
+}
+
+#Wrap{
+	width: 800px;
+	height: 600px;
+	background: #ccc;
+	margin: 150px auto;
+}
+#top{
+	height: 60px;
+	 background: -webkit-linear-gradient(left, red , blue); 
+  background: -o-linear-gradient(right, red, blue);
+  background: -moz-linear-gradient(right, red, blue);
+  background: linear-gradient(to right, red , blue); 
+}
+#top .head-img{
+	margin-top:5px;
+	margin-left:5px;
+	cursor:pointer;
+	width: 50px;
+	height: 50px;
+	background: #fff;
+	border-radius: 25px;
+	float: left;
+	position:relative; 
+}
+#top .head-img .head-img-1{
+	background:#fff;
+	display:none;
+	position:absolute;
+	right:-50px;
+	top:0px;
+	z-index:5;
+}
+#top .head-img .head-img-1 li{
+	border-bottom:1px solid #000;
+}
+#top .head-img .head-img-1 li a{
+	display:block;
+	width:50px;
+	height:30px;
+	text-align:center;
+	line-height:30px;
+}
+#top .effect{
+	height:60px;
+	float: left;
+	margin-left:200px;
+	line-height:60px;
+}
+#top .effect ul li{
+	float: left;
+}
+#top .effect ul li a {
+	color: #FFFFFF;
+	display: block;
+	width: 100px;
+	cursor:pointer;
+}
+#bottom{
+	height: 540px;
+}
+#bottom .left{
+	width: 30%;
+	height: 100%;
+	background: #ccc;
+	float: left;
+}
+#chat-bg{
+	background-image:url("bg3.jpg");
+	background-size:cover;
+}
+.up table td{
+	height:70px;
+	width:300px;
+	padding:10px 10px;
+}
+#w-search{
+	margin:10px 10px;
+	width:200px;
+	height:20px;
+	
+	border:1px solid #f00;
+	border-top-left-radius:15px;
+	border-top-right-radius:15px;
+	border-bottom-left-radius:15px;
+	border-bottom-right-radius:15px;
+	overflow:hidden;
+}
+#friend{
+	position:relative;
+}
+#friend .search{
+	width:100%;
+	height:100%;
+}
+#search-i{
+	position:absolute;
+	top:15px;
+	right:10px;
+	cursor:pointer;
+}
+#friend .friend-list{
+	position:absolute;
+	top:35px;
+	left:10px;
+	width:200px;
+	height:300px;
+	background:#ddd;
+	display:none;
+}
+#friend .friend-list ul li:hover{
+	background:#fff;
+	color:#f00;
+}
+#friend .allFriend ul li:hover{
+	color:green;
+	font-weight:bold;
+}
+#friend .friend-list ul li{
+	width:200px;
+	height:50px;
+}
+#friend .allFriend ul li{
+	width:240px;
+	height:50px;
+	background:#ccc;
+}
+#head{
+	float:left;
+	height:50px;
+	width:50px;
+	line-height:50px;
+	text-align:center;
+}
+#head i{
+	font-size:30px;
+	color:#fff;
+}
+#con{
+	float:left;
+	width:100px;
+	height:50px;
+}
+#con .mail{
+	font-size:12px;
+}
+#more{
+	float:left;
+	width:50px;
+	height:50px;
+	line-height:50px;
+	text-align:center;
+}
+#more i{
+	font-size:30px;
+	cursor:pointer;
+}
+#more2{
+	float:left;
+	width:50px;
+	height:50px;
+	line-height:50px;
+	text-align:center;
+}
+#more2 i{
+	font-size:30px;
+	cursor:pointer;
+}
+#bottom .left .list{
+	width:100%;
+	height:100%;
+	background:#fff;
+	border:1px solid #000;
+	display:none;
+}
+#bottom .left .list.active{
+	display:block;
+}
+#bottom .right{
+	width: 70%;
+	height: 100%;
+	background: pink;
+	float: right;
+}
+#bottom .right .up{
+	height:70%;
+	width:100%;
+	
+}
+#bottom .right .down{
+	height:30%;
+	width:100%;
+	
+}
+#bottom .right .down form{
+	width:100%;
+	height:100%;
+}
+#bottom .right .down .textarea{
+	width:99%;
+	height:97%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
